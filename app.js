@@ -132,3 +132,14 @@ tl.to(
   },
   4.75
 );
+tl.to(
+  ".hero-image",
+  {
+    scale: 1,
+    clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+    duration: 2,
+    ease: "hop2",
+    stagger: 0.2,
+  },
+  4.75
+);
